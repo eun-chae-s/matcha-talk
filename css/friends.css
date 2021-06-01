@@ -21,17 +21,23 @@ p {
 #profile {
   width: 100%;
   height: 80px;
-  background-color: aquamarine;
+  background-color: rgb(253, 253, 253);
 }
 #favorites {
   width: 100%;
   height: 100px;
-  background-color: antiquewhite;
+  background-color: rgb(253, 253, 253);
+  border-top-width: 0.3px;
+  border-top-style: solid;
+  border-top-color: #829736ce;
 }
 #friends {
   width: 100%;
   height: 480px;
-  background-color: beige;
+  background-color: rgb(253, 253, 253);
+  border-top-width: 0.3px;
+  border-top-style: solid;
+  border-top-color: #829736ce;
 }
 #footer {
   width: 100%;
@@ -43,7 +49,7 @@ a {
   display: inline-block;
   padding-left: 65px;
   padding-right: 65px;
-  padding-top: 10px;
+  padding-top: 13px;
 }
 #letter {
   font-family: "Nanum Gothic", sans-serif;
