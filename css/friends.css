@@ -92,3 +92,28 @@ p {
   border-radius: 5%;
   display: inline-block;
 }
+#friends_list {
+  background-color: rgb(253, 253, 253);
+  border-bottom-width: 0.3px;
+  border-bottom-style: solid;
+  border-bottom-color: #8297363b;
+}
+#friends_list > * {
+  vertical-align: middle;
+}
+#fname {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  vertical-align: middle;
+  display: inline-block;
+  padding-left: 10px;
+}
+#fmessage {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 13px;
+  font-weight: 550;
+  color: rgb(128, 128, 128);
+  vertical-align: middle;
+  margin-top: 0px;
+}
