@@ -9,13 +9,20 @@
 }
 #head {
   display: inline-block;
-  width: 100%;
+  width: 90%;
   height: 30px;
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 25px;
+  display: inline-block;
+  color: darkolivegreen;
+  margin: 0;
+  font-weight: 1000;
+  text-align: center;
 }
 h1 {
   font-family: "Nanum Gothic", sans-serif;
   font-size: 25px;
-  display: block;
+  display: inline-block;
   color: darkolivegreen;
   margin: 0;
   font-weight: 1000;
@@ -30,24 +37,29 @@ h1 {
   vertical-align: middle;
 }
 #message {
-  width: 80%;
+  width: 76%;
   height: 40px;
   display: inline-block;
   vertical-align: middle;
   background-color: white;
   margin-top: 7px;
+  padding-left: 5%;
+  border: none;
 }
 #emoticon {
-  width: 50px;
+  width: 5%;
   height: 40px;
   vertical-align: middle;
   margin-top: 7px;
   background-color: white;
+  padding-right: 1%;
 }
 #enter {
-  width: 50px;
+  width: 10%;
   height: 40px;
   vertical-align: middle;
   margin-top: 7px;
   background-color: white;
+  border-color: rgb(177, 174, 174);
+  color: rgb(100, 100, 100);
 }
