@@ -20,10 +20,15 @@
     <div id="box">
         <a><input id="message" type="text"></a>
         <a><input id="emoticon" type="image" src="img/emoji.png"></a>
-        <a><input id="enter" type="button" value="Enter"></a>
+        <a><input id="enter" type="button" value="Enter" onclick="getInputValue()"></a>
     </div>
 </body>
 <script>
-    
+    function getInputValue() {
+        var inputVal = document.getElementById("message").value;
+        
+        // Create a new message bubble on the screen
+        document.getElementById("chatbackground").innerHTML = inputVal;
+    }
 </script>
 </html>
