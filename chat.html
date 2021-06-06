@@ -30,6 +30,16 @@
         // Create a new message bubble on the screen
         var messagebox = document.createElement("div");
         messagebox.innerHTML = inputVal;
+        messagebox.style.display = "block";
+        messagebox.style.width = "100px";
+        messagebox.style.height = "50px";
+        messagebox.style.backgroundColor = "yellow";
+        messagebox.style.webkitBorderRadius = "10px";
+        messagebox.style.borderRadius = "10px";
+        messagebox.style.float = "right";
+        messagebox.style.textAlign = "center";
+        messagebox.style.fontFamily = "Nanum Gothic, sans-serif";
+        messagebox.style.verticalAlign = "middle";
         document.getElementById("chatbackground").append(messagebox);
     }
 </script>

@@ -31,6 +31,9 @@ h1 {
 #chatbackground {
   height: 680px;
 }
+#chatbackground > * {
+  vertical-align: middle;
+}
 #box {
   height: 60px;
   background-color: white;
