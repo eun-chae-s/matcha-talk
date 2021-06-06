@@ -28,7 +28,9 @@
         var inputVal = document.getElementById("message").value;
         
         // Create a new message bubble on the screen
-        document.getElementById("chatbackground").innerHTML = inputVal;
+        var messagebox = document.createElement("div");
+        messagebox.innerHTML = inputVal;
+        document.getElementById("chatbackground").append(messagebox);
     }
 </script>
 </html>
