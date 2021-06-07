@@ -28,8 +28,11 @@ h1 {
   font-weight: 1000;
   text-align: center;
 }
+#break {
+  height: 15px;
+}
 #chatbackground {
-  height: 680px;
+  height: 665px;
 }
 #chatbackground > * {
   vertical-align: middle;

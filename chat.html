@@ -14,11 +14,14 @@
     <div id="head">
         Person 1
     </div>
+    <div id="break">
+
+    </div>
     <div id="chatbackground">
 
     </div>
     <div id="box">
-        <a><input id="message" type="text"></a>
+        <a><input id="message" type="text" onfocus="this.value=''"></a>
         <a><input id="emoticon" type="image" src="img/emoji.png"></a>
         <a><input id="enter" type="button" value="Enter" onclick="getInputValue()"></a>
     </div>
@@ -32,15 +35,17 @@
         messagebox.innerHTML = inputVal;
         messagebox.style.display = "block";
         messagebox.style.width = len.toString() + "px";
-        messagebox.style.height = "50px";
+        messagebox.style.height = "40px";
         messagebox.style.backgroundColor = "yellow";
         messagebox.style.webkitBorderRadius = "10px";
         messagebox.style.borderRadius = "10px";
         messagebox.style.float = "right";
         messagebox.style.textAlign = "center";
-        messagebox.style.paddingTop = "20px";
+        messagebox.style.paddingTop = "15px";
         messagebox.style.fontFamily = "Nanum Gothic, sans-serif";
         document.getElementById("chatbackground").append(messagebox);
+        var br = document.createElement("br");
+        document.getElementById("chatbackground").append(br);
     }
 </script>
 </html>
