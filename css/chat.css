@@ -4,6 +4,9 @@
 * {
   background-color: rgb(196, 228, 142);
 }
+#container {
+  height: 770px;
+}
 #back {
   display: inline-block;
 }

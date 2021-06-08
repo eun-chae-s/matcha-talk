@@ -8,22 +8,22 @@
     <link rel="stylesheet" href="css/chat.css">
 </head>
 <body>
-    <div id="back" onclick="window.open('chatting.html')">
-        <h1>&lt;</h1>
-    </div>
-    <div id="head">
-        Person 1
-    </div>
-    <div id="break">
-
-    </div>
-    <div id="chatbackground">
-
-    </div>
-    <div id="box">
-        <a><input id="message" type="text" onfocus="this.value=''"></a>
-        <a><input id="emoticon" type="image" src="img/emoji.png"></a>
-        <a><input id="enter" type="button" value="Enter" onclick="getInputValue()"></a>
+    <div id="container">
+        <div id="back" onclick="window.open('chatting.html')">
+            <h1>&lt;</h1>
+        </div>
+        <div id="head">
+            Person 1
+        </div>
+        <div id="break">
+        </div>
+        <div id="chatbackground">
+        </div>
+        <div id="box">
+            <a><input id="message" type="text" onfocus="this.value=''"></a>
+            <a><input id="emoticon" type="image" src="img/emoji.png"></a>
+            <a><input id="enter" type="button" value="Enter" onclick="getInputValue()"></a>
+        </div>
     </div>
 </body>
 <script>
@@ -44,8 +44,9 @@
         messagebox.style.paddingTop = "15px";
         messagebox.style.fontFamily = "Nanum Gothic, sans-serif";
         document.getElementById("chatbackground").append(messagebox);
-        var br = document.createElement("br");
-        document.getElementById("chatbackground").append(br);
+        var gap = document.createElement("div");
+        gap.style.height = "60px";
+        document.getElementById("chatbackground").append(gap);
     }
 </script>
 </html>
